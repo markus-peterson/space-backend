@@ -4,7 +4,7 @@ var poolPromise = sql.createPool({
 	connectionLimit:4,
 	user: 'root',
 	// password: 'pass',
-	database: 'SpaceBackend',
+	database: 'test',
 	server: 'localhost',
 })
 

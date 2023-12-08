@@ -1,6 +1,7 @@
 const Person = require('../models/person.model')
 
 exports.create = async(req, res) => {
+    console.log(res)
     const person = await Person.create(req.body)
 
     if(person){
